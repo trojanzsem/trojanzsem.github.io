@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+
+    user-select: none;
+}
+
+html,
+body {
+    position: relative;
+
+    height: 100%;
+
+    display: flex;
+    flex-flow: column;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+
+    font-family: Inter;
+
+    background-color: #183a68;
+}
